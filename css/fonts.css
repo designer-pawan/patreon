@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),  url('../fonts/CenturyGothic.woff') format('woff'), url('../fonts/CenturyGothic.ttf')  format('truetype'), url('CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic-Bold';
+  src: url('../fonts/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/CenturyGothic-Bold.woff') format('woff'), url('../fonts/CenturyGothic-Bold.ttf')  format('truetype'), url('../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic-BoldItalic';
+  src: url('../fonts/CenturyGothic-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/CenturyGothic-BoldItalic.woff') format('woff'), url('../fonts/CenturyGothic-BoldItalic.ttf')  format('truetype'), url('../fonts/CenturyGothic-BoldItalic.svg#CenturyGothic-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular_0-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold_0-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold_0-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

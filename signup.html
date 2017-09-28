@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: INspired Patron ::</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/custom-style.css">
+    <link rel="stylesheet" href="css/custom-responsive.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Login Page -->
+    <div class="cr-area">
+        <div class="log-wrapper">
+            <div class="logo-sec">
+                <a href="javascript:;"><img src="img/dummy_logo.png" alt="Inpired Patron" /></a>
+            </div>
+            <div class="form-outer">
+                <h2>Create an Account</h2>
+                <p>Fill the form below to create an account</p>
+                <div class="form-area">
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" name="usrname" class="form-control" placeholder="Username" />
+                        </div>
+                        <div class="form-group">
+                            <input type="emai" name="email" class="form-control" placeholder="Email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" class="form-control" placeholder="Password" />
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-dark-black">Sign Up</button>
+                            <div class="alrdy-mbr">
+                                <a href="login.html">Already a member?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="div-der">
+                    <img src="img/or_img.png" alt="OR" />
+                </div>
+                <div class="cr-user">
+                    <ul>
+                        <li class="scl-icon scl-fb"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="scl-icon scl-twt"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="scl-icon scl-gpls"><a href="https://plus.google.com/discover" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script -->
+    <script src="js/jquery.v3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom-main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.btn').ripple({
+                color: 'rgba(255,255,255,0.5)',
+                time: '.5s'
+            });
+
+        });
+    </script>
+</body>
+
+</html>
